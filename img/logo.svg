@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Legal Intelligence</title>
+  <rect width="512" height="512" rx="112" fill="#6A1FE8"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round">
+    <path d="M140 176 L96 284 M140 176 L184 284 M372 176 L328 284 M372 176 L416 284"/>
+  </g>
+  <g fill="#FFFFFF">
+    <rect x="242" y="150" width="28" height="222" rx="14"/>
+    <rect x="164" y="364" width="184" height="34" rx="17"/>
+    <rect x="112" y="158" width="288" height="26" rx="13"/>
+    <path d="M84 284 H196 A56 56 0 0 1 84 284 Z"/>
+    <path d="M316 284 H428 A56 56 0 0 1 316 284 Z"/>
+  </g>
+  <circle cx="256" cy="146" r="26" fill="#FF7A45"/>
+</svg>

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Legal Intelligence — acompanhamento de processos judiciais</title>
+  <meta name="description" content="Aplicativo para Windows que importa processos do DataJud (CNJ), avisa quando algo importante acontece e ajuda a entender cada movimentação com apoio de inteligência artificial.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#6a1fe8">
+  <meta property="og:title" content="Legal Intelligence">
+  <meta property="og:description" content="Seus processos judiciais acompanhados de perto, sem esforço manual.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://uselegalintelligence.com.br/">
+  <meta property="og:image" content="https://uselegalintelligence.com.br/img/painel.jpg">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#inicio">
+        <img src="img/logo.svg" alt="" width="34" height="34">
+        Legal Intelligence
+      </a>
+      <nav aria-label="Seções">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#telas">Telas</a>
+        <a href="#seguranca">Segurança</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Para advogados e escritórios</p>
+          <h1>Seus processos judiciais acompanhados de perto, sem esforço manual.</h1>
+          <p class="lead">Um aplicativo para Windows que importa processos direto da base oficial do CNJ, avisa quando algo importante acontece e ajuda a entender cada movimentação com apoio de inteligência artificial.</p>
+          <ul class="chips" aria-label="Destaques">
+            <li>Windows 10 e 11</li>
+            <li>Dados oficiais do DataJud (CNJ)</li>
+            <li>IA como apoio, não como palavra final</li>
+          </ul>
+        </div>
+        <figure class="window hero-shot">
+          <img src="img/painel.jpg" alt="Painel do Legal Intelligence com totais de processos, alertas recentes e processos monitorados" width="1600" height="1000">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="por-que">
+      <div class="wrap">
+        <p class="eyebrow">Por que usar</p>
+        <h2 id="por-que">Do acompanhamento manual ao aviso automático</h2>
+        <div class="compare">
+          <div class="card card-before">
+            <h3>Sem o Legal Intelligence</h3>
+            <ul class="points points-muted">
+              <li>Consultar processo por processo nos sites dos tribunais.</li>
+              <li>Anotar à mão o que mudou desde a última consulta.</li>
+              <li>Correr o risco de perder uma sentença ou citação no meio de andamentos rotineiros.</li>
+              <li>Ler cada andamento técnico para entender o que ele significa.</li>
+            </ul>
+          </div>
+          <div class="card card-after">
+            <h3>Com o Legal Intelligence</h3>
+            <ul class="points">
+              <li>Importação pelo número CNJ, direto da base oficial.</li>
+              <li>Linha do tempo organizada, com sentenças e citações destacadas.</li>
+              <li>Monitoramento: só o que é novo vira alerta.</li>
+              <li>Resumo da movimentação com IA, marcado como fato, inferência ou desconhecido.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="como-funciona" aria-labelledby="como-funciona-titulo">
+      <div class="wrap">
+        <p class="eyebrow">Como funciona</p>
+        <h2 id="como-funciona-titulo">Quatro passos, do número do processo ao alerta</h2>
+        <ol class="steps">
+          <li class="card">
+            <h3>Importar</h3>
+            <p>Informe o número CNJ e o tribunal (TJPA, TJSP ou TRF1). O aplicativo busca os dados oficiais no DataJud.</p>
+          </li>
+          <li class="card">
+            <h3>Organizar</h3>
+            <p>As movimentações viram uma linha do tempo. Sentenças e citações são identificadas e destacadas automaticamente.</p>
+          </li>
+          <li class="card">
+            <h3>Monitorar</h3>
+            <p>Ative o monitoramento. Os acontecimentos relevantes de cada atualização aparecem como alertas.</p>
+          </li>
+          <li class="card">
+            <h3>Entender</h3>
+            <p>Peça uma análise da movimentação à IA: OpenAI de forma automática, ou Claude e ChatGPT de forma manual.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="telas" aria-labelledby="telas-titulo">
+      <div class="wrap">
+        <p class="eyebrow">Telas</p>
+        <h2 id="telas-titulo">Tudo o que importa, em poucos cliques</h2>
+
+        <div class="feature">
+          <div class="feature-text">
+            <h3>Linha do tempo clara</h3>
+            <p>Todas as movimentações em ordem, da mais recente para a mais antiga, com os dados principais do processo: tribunal, classe, assunto e distribuição.</p>
+            <ul class="points">
+              <li>Sentenças e citações com etiquetas coloridas.</li>
+              <li>Monitoramento ligado ou desligado com um clique.</li>
+              <li>“Analisar evento” em cada movimentação.</li>
+            </ul>
+          </div>
+          <figure class="window">
+            <img src="img/detalhes.jpg" alt="Detalhes de um processo com a linha do tempo das movimentações" width="1600" height="1000" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="feature feature-reverse">
+          <div class="feature-text">
+            <h3>Alertas só do que é novo</h3>
+            <p>Somente os processos monitorados geram alertas, e uma movimentação já conhecida não gera aviso repetido.</p>
+            <ul class="points">
+              <li>Tipo do evento, movimentação e data em cada alerta.</li>
+              <li>Atalho direto para o processo.</li>
+              <li>Alertas também no Painel e nos lembretes.</li>
+            </ul>
+          </div>
+          <figure class="window">
+            <img src="img/alertas.jpg" alt="Lista de alertas com o tipo do evento e a data da movimentação" width="1600" height="1000" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="feature">
+          <div class="feature-text">
+            <h3>A IA explica, o advogado decide</h3>
+            <p>Duas formas de usar, à escolha do escritório:</p>
+            <ul class="points">
+              <li><strong>OpenAI (automática):</strong> com a chave do escritório, a análise é feita dentro do aplicativo.</li>
+              <li><strong>Claude ou ChatGPT (manual):</strong> o aplicativo prepara o texto, você cola na sua conta e traz a resposta de volta.</li>
+              <li>Cada resposta é validada e classificada como <strong>fato</strong>, <strong>inferência</strong> ou <strong>desconhecido</strong>.</li>
+            </ul>
+          </div>
+          <figure class="window">
+            <img src="img/analise.jpg" alt="Tela de análise manual com o texto preparado para o Claude ou o ChatGPT" width="1600" height="1000" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="aparencia-titulo">
+      <div class="wrap">
+        <p class="eyebrow">Aparência</p>
+        <h2 id="aparencia-titulo">Modo claro e modo escuro</h2>
+        <p class="lead">Um interruptor troca a aparência com um clique, e o aplicativo lembra a escolha.</p>
+        <div class="themes">
+          <figure>
+            <div class="window"><img src="img/painel.jpg" alt="Painel no modo claro" width="1600" height="1000" loading="lazy"></div>
+            <figcaption>Modo claro, para ambientes iluminados.</figcaption>
+          </figure>
+          <figure>
+            <div class="window"><img src="img/painel-escuro.jpg" alt="Painel no modo escuro" width="1600" height="1000" loading="lazy"></div>
+            <figcaption>Modo escuro, mais conforto para a vista em longas jornadas.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="seguranca" aria-labelledby="seguranca-titulo">
+      <div class="wrap">
+        <p class="eyebrow">Segurança e privacidade</p>
+        <h2 id="seguranca-titulo">Os dados do escritório ficam com o escritório</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Armazenamento local</h3>
+            <p>Processos, alertas e análises ficam num banco de dados no próprio computador. Nada é enviado para servidores do aplicativo.</p>
+          </div>
+          <div class="card">
+            <h3>Chaves criptografadas</h3>
+            <p>As chaves de acesso (DataJud e OpenAI) são protegidas pela criptografia do Windows e vinculadas ao usuário do computador.</p>
+          </div>
+          <div class="card">
+            <h3>Conexões só com o necessário</h3>
+            <p>O aplicativo se comunica apenas com o DataJud e, se escolhido, com a OpenAI. No modo manual, o advogado usa a própria conta do Claude ou do ChatGPT.</p>
+          </div>
+          <div class="card">
+            <h3>Backup e atualizações seguras</h3>
+            <p>O banco pode ser exportado e importado em outro computador, e o aplicativo faz uma cópia de segurança antes de cada atualização que altere os dados.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="brand brand-small"><img src="img/logo.svg" alt="" width="24" height="24"> Legal Intelligence</span>
+      <span>© 2026 Legal Intelligence · Imagens com dados ilustrativos.</span>
+    </div>
+  </footer>
+</body>
+</html>
